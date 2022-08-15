@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCID</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font/open-sans-v29-latin-600.woff">
+    <link rel="stylesheet" href="font/open-sans-v29-latin-600.woff2">
+    <link rel="stylesheet" href="font/open-sans-v29-latin-800.woff">
+    <link rel="stylesheet" href="font/open-sans-v29-latin-800.woff2">
+    <link rel="stylesheet" href="font/open-sans-v29-latin-regular.woff">
+    <link rel="stylesheet" href="font/open-sans-v29-latin-regular.woff2">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="wrapper">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a href="" class="header_logo-link">
+                            <img src=".//img/cvg/Group81.svg" alt="SCID" class="header_logo-pic">
+                        </a>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#!" class="header__link">КЕЙСЫ</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">
+                                        <img src="./img/cvg/Union.png" alt="star" class="header_logo-star">
+                                    БИЗНЕСУ
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">УСЛУГИ</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">КОНТАКТЫ</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link"><button>Заказать звонок</button></a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="item">
+                <img src="./img/cvg/Group 103.png" alt="Первый слайд">
+                <div class="slideText">Lorem ipsum dolor sit amet, <div class="slideText__green">consectetur adipisicing elit</div></div>
+            </div>
+        
+            <div class="item">
+                <img src="./img/cvg/Group 103.png" alt="Второй слайд">
+                <div class="slideText"></div>
+            </div>
+        
+            <div class="item">
+                <img src="./img/cvg/Group 103.png" alt="Третий слайд">
+                <div class="slideText"> </div>
+            </div>
+        
+            <a class="prev" onclick="minusSlide()">&#10094;</a>
+            <a class="next" onclick="plusSlide()">&#10095;</a>
+        </div>
+        
+        <div class="slider-dots">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+        </div>
+        <div class="services__main">
+            <h1>Наши услуги</h1>
+            <div class="big_block flex-box flex-wrap">
+                <div class="block_1">
+                    <img src="./img/cvg/services1.png">
+                    <div class="block1__text">Кадастровые работы 
+                        в отношении земельных участков</div>
+                </div>
+                <div class="block_1">
+                    <img src="./img/cvg/services2.png">
+                    <div class="block1__text">Кадастровые работы <br>
+                        в отношении земельных участков</div>
+                </div>
+                <div class="block_1">
+                    <img src="./img/cvg/services3.png">
+                    <div class="block1__text">Кадастровые работы <br>
+                        в отношении земельных участков</div>
+                </div>
+                <div  class="block_1">
+                    <img src="./img/cvg/services4.png">
+                    <div class="block1__text">Кадастровые работы <br>
+                        в отношении земельных участков</div>
+                </div>
+                <div class="block_1">
+                    <img src="./img/cvg/services5.png">
+                    <div class="block1__text">Кадастровые работы <br>
+                        в отношении земельных участков</div>
+                </div>       
+                <div class="block_1">
+                    <img src="./img/cvg/services6.png">
+                    <div class="block1__text">Кадастровые работы <br>
+                        в отношении земельных участков</div>
+                </div>
+            </div>
+        </div>
+        <div class="our_services">
+            <button id="button__our_services">Все услуги</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__item">
+
+                <nav class="footer__nav">
+                    <div class="footer__logo">
+
+                    </div>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Для связи</h3> 
+                        </li>
+                        <li class="footer__menu-item flex-box flex-wrap">
+                            <div class="footer__menu-logo">
+                                <img src="./img/cvg/SocialIcons.png">
+                            </div>
+                            <h3 class="footer__menu-link"> 7 (926) 126-64-57</h3> 
+                        </li>
+                        <li class="footer__menu-item flex-box flex-wrap">
+                            <div class="footer__menu-logo">
+                                <img src="./img/cvg/SocialIcons2.png">
+                            </div>
+                            <h3 class="footer__menu-link">7 (926) 126-64-57</h3> 
+                        </li>
+                        <li class="footer__menu-item flex-box flex-wrap">
+                            <div class="footer__menu-logo">
+                                <img src="./img/cvg/SocialIcons3.png">
+                            </div>
+                            <h3 class="footer__menu-link">7 (926) 126-64-57</h3> 
+                        </li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Компания</h3> 
+                        </li>
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-link">Услуги</h3> 
+                        </li>
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-link">Кейсы</h3> 
+                        </li>
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-link">Контакты</h3> 
+                        </li>
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-link">Сотрудничество</h3> 
+                        </li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Документы</h3> 
+                        </li>
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-link">Политика <br>
+                                конфеденциальности</h3> 
+                        </li>
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-link">Пользовательское <br>
+                                соглашение</h3> 
+                        </li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Будьте в курсе</h3> 
+                        </li>
+                        <input type="E-mail" placeholder="E-mail">
+                        <li class="footer__logo-contact">
+                            <img src="./img/cvg/SocialIcons4.png">
+                            <img src="./img/cvg/SocialIcons6.png">
+                            <img src="./img/cvg/SocialIcons7.png">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+     <script>
+        
+/* Индекс слайда по умолчанию */
+var slideIndex = 1;
+showSlides(slideIndex);
+
+/* Функция увеличивает индекс на 1, показывает следующй слайд*/
+function plusSlide() {
+    showSlides(slideIndex += 1);
+}
+
+/* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
+function minusSlide() {
+    showSlides(slideIndex -= 1);  
+}
+
+/* Устанавливает текущий слайд */
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+/* Основная функция слайдера */
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("item");
+    var dots = document.getElementsByClassName("slider-dots_item");
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}
+     </script>
+</body>
+</html>
